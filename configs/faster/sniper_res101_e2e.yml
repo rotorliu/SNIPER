@@ -43,7 +43,7 @@ dataset:
   dataset_path: "./data/coco"
   image_set: train2014+val2014
   root_path: "./data"
-  test_image_set: test2015
+  test_image_set: test-dev2015
   proposal: rpn
 TRAIN:
   ## CHIP GENERATION PARAMS
