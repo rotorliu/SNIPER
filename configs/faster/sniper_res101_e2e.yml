@@ -57,8 +57,8 @@ TRAIN:
   # Multi-processing params
   # These parameters are used for parallel chip generation, NMS, etc.
   # Please consider adjusting them for your system
-  NUM_PROCESS: 16
-  NUM_THREAD: 2
+  NUM_PROCESS: 64
+  NUM_THREAD: 8
 
   # Whether to train with segmentation mask
   WITH_MASK: false
@@ -96,7 +96,7 @@ TRAIN:
   # whether use OHEM
   ENABLE_OHEM: true
   # Number of images per GPU
-  BATCH_IMAGES: 2
+  BATCH_IMAGES: 16
   # e2e changes behavior of anchor loader and metric
   END2END: true
   # R-CNN
